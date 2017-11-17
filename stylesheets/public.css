@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body, ul, li, nav, h1, h3, p, section, input { margin: 0; padding: 0;}
+a  { text-decoration: none; }
+ul { list-style: none; }
+
+.fl { float: left; }
+.fr { float: right; }
+.clearFloat { zoom: 1; }
+.clearFloat:after {
+    content: '';
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+}
+
+#title {
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 3px gray;
+    margin-bottom: 50px;
+    border-bottom: 2px solid purple;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
